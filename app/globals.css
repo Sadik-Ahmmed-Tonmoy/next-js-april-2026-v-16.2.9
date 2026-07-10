@@ -167,10 +167,6 @@
   background: #555;
 }
 
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
-}
-
 /* 6. Global Base Styles */
 * {
   border-color: var(--border);
@@ -179,5 +175,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-poppins), 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
