@@ -52,3 +52,32 @@ export const handleAsyncWithToast = async (
     }
   }
 };
+
+
+//  const handleLogin = async () => {
+//     setLoading(true);
+
+//     try {
+//       const response = await handleAsyncWithToast(
+//         () =>
+//           axios.post("/api/auth/login", {
+//             email: "admin@gmail.com",
+//             password: "123456",
+//           }),
+//         true,
+//         "Logging in...",
+//         "Login successful!",
+//         "Login failed!"
+//       );
+
+//       console.log(response.data);
+
+//       // Example:
+//       // localStorage.setItem("token", response.data.data.accessToken);
+//       // router.push("/dashboard");
+//     } catch (error) {
+//       console.error(error);
+//     } finally {
+//       setLoading(false);
+//     }
+//   };
